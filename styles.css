@@ -11,6 +11,11 @@ body {
   color: #CBC9CF;
 }
 
+.card-styling {
+  box-shadow: 5px 5px 10px 2px #26222D;
+  border-radius: 3px;
+}
+
 .card-color {
   background-color:  #46424D;
 }
@@ -33,4 +38,56 @@ header h2 {
 
 main {
   display: flex;
+  justify-content: space-between;
+}
+
+.new-activity {
+  width: 65%;
+  height: 100vh;
+  border-right: 3px solid #46424D;
+}
+
+.past-activities {
+  width: 35%;
+  height: 100vh;
+}
+
+.new-activity-header, .past-activities h2 {
+  height: 9.5vh;
+  margin-left: 2vw;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  bottom: 1.8vh;
+}
+
+.new-activity-card {
+  width: 61vw;
+  height: 76.6vh;
+  margin-left: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* || PAST ACTIVITIES */
+
+.placeholder-text {
+  text-align: center;
+  position: relative;
+  top: 3.33vh;
+  margin-bottom: 1vh;
+}
+
+.card-center {
+  width: 45vw;
+  height: 63vh;
+}
+.card-center span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-center h3 {
+  height: 3vh;
 }
